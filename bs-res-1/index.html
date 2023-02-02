@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/css/mdb.min.css" integrity="sha512-hj9rznBPdFg9A4fACbJcp4ttzdinMDtPrtZ3gBD11DiY3O1xJfn0r1U5so/J0zwfGOzq9teIaH5rFmjFAFw8SA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <header class="bg-white w-100 position-fixed top-0 start-0 z-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <img src="./assets/images/logo.png" class="img-fluid" width="170" height="85" alt="logo">
+                </div>
+                <div class="col-4">
+                    <ul class="justify-content-between d-flex">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="link"><a href="#" class="link" title="Html">Html</a></li>
+                        <li class="link"><a href="#" class="link" title="Css">About Us</a></li>
+                        <li class="link"><a href="#" class="link" title="Layout">Services</a></li>
+                        <li class="link"><a href="#" class="link" title="Bootstrap">Contact</a></li>
+                        <li class="link"><a href="#" class="link" title="Bootstrap">Help</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <div class="input d-flex align-items-center">
+                        <input class="w-100 form-control search-in" type="text" placeholder="Search your items here">
+                        <i class="fa fa-search icon" aria-hidden="true"></i>
+                    </div>
+                        
+                    <a href="" class="text-dark mx-4 d-block">
+                        <i class="fa fa-envelope fa-2x"></i>
+                        <span class="position-absolute top-10 start-80 translate-middle badge rounded-pill bg-primary">2</span>
+                    </a>
+                    
+                </div>   
+            </div>
+    </header>
+    <section class="carousle-banner">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/slider-1.png" width="1920" height="706" class="d-block w-100 slide-img" alt="slide-1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/slider-2.png" width="1920" height="706" class="d-block w-100 slide-img" alt="slide-2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/slider-3.png" width="1920" height="706" class="d-block w-100 slide-img" alt="slide-3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </section>
+    
+    <section class="text">
+        <div class="container">
+            <h2 class="text-head text-center">Welcome to Lorem ipsum</h2>
+            <p class="text-para mt-24 text-center">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et<br>
+                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut<br>
+                  aliquip ex ea commodo consequat. 
+            </p>   
+            <div class="mt-56 text-center">
+                <button type="button" class="btn btn-color rounded">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="img-text background bg-img text-img d-block">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-6">
+                    <h3 class="text-head fs-40 text-strat pt-90 mx-5">Lorem ipsum</h3>
+                    <p class="text-para text-strat pt-24 mx-5">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>
+                              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br>
+                               commodo consequat. 
+                    </p>
+                    <div class="mt-56 text-strat mx-5">
+                        <button type="button" class="btn btn-color rounded">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards-banner pt-90 pb-90">
+        <div class="container">
+            <div class="row gap-4 row-cols-3 justify-content-center">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title pt-68">Card title</h5>
+                      <h6 class="card-subtitle mt-3 text-muted">Card subtitle</h6>
+                      <p class="card-text text-para mt-3 mb-3">Some quick example text to build<br>
+                         on the card title and make up the<br> bulk of the card's content. Some<br>
+                          quick example text to build.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link link-2">Another link</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title pt-68">Card title</h5>
+                      <h6 class="card-subtitle mt-3 text-muted">Card subtitle</h6>
+                      <p class="card-text text-para mt-3 mb-3">Some quick example text to build<br>
+                         on the card title and make up the<br> bulk of the card's content. Some<br>
+                          quick example text to build.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link link-2">Another link</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title pt-68">Card title</h5>
+                      <h6 class="card-subtitle mt-3 text-muted">Card subtitle</h6>
+                      <p class="card-text text-para mt-3 mb-3">Some quick example text to build<br>
+                         on the card title and make up the<br> bulk of the card's content. Some<br>
+                          quick example text to build.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link link-2">Another link</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="table pt-90 pb-90 background">
+        <div class="container">
+            <table class="table table-bordered border-primary w-50 text-center mx-auto">
+                <thead class="head">
+                  <tr class="">
+                    <th class="table-primary" scope="col">#</th>
+                    <th class="table-primary" scope="col">First</th>
+                    <th class="table-primary" scope="col">Last</th>
+                    <th class="table-primary" scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody class="">
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th class="table-secondary" scope="row">2</th>
+                    <td class="table-secondary">Jacob</td>
+                    <td class="table-secondary">Thornton</td>
+                    <td class="table-secondary">@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry the Bird</td>
+                    <td>@fat</td>
+                    <td>@twitter</td>
+                  </tr>
+                  <tr>
+                    <th class="table-secondary" scope="row">4</th>
+                    <td class="table-secondary">Larry the Bird</td>
+                    <td class="table-secondary">@fat</td>
+                    <td class="table-secondary">@twitter</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Larry the Bird</td>
+                    <td>@fat</td>
+                    <td>@twitter</td>
+                  </tr>
+                  <tr>
+                    <th class="table-secondary" scope="row">6</th>
+                    <td class="table-secondary">Larry the Bird</td>
+                    <td class="table-secondary">@fat</td>
+                    <td class="table-secondary">@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </section>
+
+    <section class="faq pt-90">
+        <div class="container">
+            <h3 class="text-head fs-40 text-center mb-5">FAQ Lorem Ipsum</h3>
+            <div class="accordion w-50 mx-auto" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Where does it come from?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-para">
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Where do you need this?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-para">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body text-para</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Why do we use it?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-para">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body text-para</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Where can I get some?
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body text-para">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body text-para</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+    <section class="pt-90">
+
+    </section>
+</body>
+</html>
