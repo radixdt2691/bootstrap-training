@@ -143,6 +143,12 @@ table {
 .mt-56{
     margin-top: 56px;
 }
+.mb-30{
+    margin-bottom: 30px;
+}
+.w-90{
+    width: 90%;
+}
 .btn-color{
     background: #0D6EFD;
     color:white;
@@ -168,6 +174,10 @@ table {
 .pt-90{
     padding-top: 90px;
 }
+.ptb-90{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
 .pb-90{
     padding-bottom: 90px;
 }
@@ -189,6 +199,7 @@ table {
     max-width: 416px;
     height: auto;
 }
+
 .pt-68{
     padding-top: 68px;
 }
@@ -240,4 +251,33 @@ table {
     /* Primary */
     color: #0D6EFD;
 }
+
+.fs-28{
+    font-size: 28px;
+}
+.h-color{
+    color: #212529;
+}
+.lh-25{
+    line-height: 25px;
+}
+.ml-20{
+    margin-left: 10px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.frm-mail{
+    
+background: rgba(217, 217, 217, 0.3);
+border-radius: 5px;
+
+}
+/* Media Query */
 
