@@ -233,7 +233,6 @@ table {
 }
 .content-txt{
     top: 10%;
-    z-index: 999;
 }
 .vid{
     display: block;
@@ -255,3 +254,7 @@ textarea{
 .form-control { border-radius: 0; }
 .dropdown-center{ border-radius: 0;}
 .form-select{ border-radius: 0;}
+.back-fixed{
+    background: #E9B8A8;
+}
+.fade:not(.show){opacity: 1;}

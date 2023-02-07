@@ -254,11 +254,11 @@
         <div class="container">
             <div class="rectangle-form w-50 mx-auto">
                 <form class="row g-3 justify-content-center">
-                    <div class="col-md-5">
+                    <div class="col-md-5 mt-5">
                       <label for="fn" class="form-label text-white">Your Name</label>
                       <input type="text" class="form-control" id="fn">
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 mt-5">
                       <label for="nop" class="form-label text-white">Number Of Persons</label>
                       <div class="dropdown-center">
                         <select class="form-select">
@@ -313,6 +313,80 @@
             </div>
         </div>
     </section>
+    <section class="p-t-b align-items-center">
+        <div class="container justify-content-center">
+            <h3 class="text-head">Lorem ipsum dolor</h3>
+            <div class="row justify-content-center">
+                 <div class="col-11 back-fixed">
+                    <div class="row justify-content-between g-0">
+                        <div class="col-6 fade-2">
+                            
+                            <div class="img-p-div">
+                                <img src="./assets/images/slide_txt.png" width="696" height="535" alt="Room" class="img-fluid">
+                            </div>
+                            <div class="img-p-div">
+                                <img src="./assets/images/slide_txt.png" width="696" height="535" alt="Room" class="img-fluid">
+                            </div>
+                            <div class="img-p-div">
+                                <img src="./assets/images/slide_txt.png" width="696" height="535" alt="Room" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-5 fade">
+                            <div class="content-box py-5">
+                                <h4 class="title color-white">Lorem Ipsum 1</h4>
+                                <p class="mb-0 date color-white py-3">30.08 - 09.10.2022</p>
+                                <p class="mb-0 color-white pb-2">47 m<sup>2</sup> dolor 1 - 2 eiusmod tempor</p>
+                                <p class="mb-0 color-white pb-3">Lorem ipsum <span class="fw-bold"> 56 €</span> per Person (bis max. 103 € per Person)</p>
+                                <p class="mb-0 color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="g-4 mt-4">
+                                    <button class="btn rounded-0 btn-dark">Request</button>
+                                    <button class="btn rounded-0 btn-outline-dark">Request</button>
+                                </div>
+                            </div>
+                            <div class="content-box py-5">
+                                <h4 class="title color-black">Lorem Ipsum 2</h4>
+                                <p class="mb-0 date color-black py-3">30.08 - 09.10.2022</p>
+                                <p class="mb-0 color-black pb-2">47 m<sup>2</sup> dolor 1 - 2 eiusmod tempor</p>
+                                <p class="mb-0 color-black pb-3">Lorem ipsum <span class="fw-bold"> 56 €</span> per Person (bis max. 103 € per Person)</p>
+                                <p class="mb-0 color-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="g-4 mt-4">
+                                    <button class="btn rounded-0 btn-dark">Request</button>
+                                    <button class="btn rounded-0 btn-outline-dark">Request</button>
+                                </div>
+                            </div>
+
+                            <div class="content-box py-5">
+                                <h4 class="title color-black">Lorem Ipsum 3</h4>
+                                <p class="mb-0 date color-black py-3">30.08 - 09.10.2022</p>
+                                <p class="mb-0 color-black pb-2">47 m<sup>2</sup> dolor 1 - 2 eiusmod tempor</p>
+                                <p class="mb-0 color-black pb-3">Lorem ipsum <span class="fw-bold"> 56 €</span> per Person (bis max. 103 € per Person)</p>
+                                <p class="mb-0 color-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="g-4 mt-4">
+                                    <button class="btn rounded-0 btn-dark">Request</button>
+                                    <button class="btn rounded-0 btn-outline-dark">Request</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <!-- <div class="col-6 back-fixed">
+                <div class="center mt-3">
+                        <div class="d-flex">
+                            <img src="./assets/images/slide_txt.png" class="my-3 mt-5" alt="img">
+                            <h4>Lorem Ipsum</h4>
+                        </div>
+                        <div>
+                            <img src="./assets/images/slide_txt.png" alt="img">
+                            <h4>Lorem Ipsum</h4>
+                        </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -342,6 +416,31 @@
             }
         ]
         });
+    </script>
+    <script>
+        $('.fade').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear',
+            asNavFor: '.fade-2',
+            dots: false,
+            arrows: false
+        });
+	
+        $('.fade-2').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear',
+            asNavFor: '.fade',
+            dots: false,
+            arrows: false
+        });
+	
+
     </script>
 </body>
 </html>
