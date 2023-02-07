@@ -258,3 +258,6 @@ textarea{
     background: #E9B8A8;
 }
 .fade:not(.show){opacity: 1;}
+.ml-30{
+    margin-left: 30px;
+}
