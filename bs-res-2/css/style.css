@@ -114,6 +114,7 @@ table {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 .banner-head{
     font-family: 'JosefinSans';
@@ -131,7 +132,7 @@ table {
     box-shadow: 0px 3px 18px rgba(92, 92, 92, 0.1);
 }
 .b-main{
-    bottom: 140px;
+    top: 75vh;  
 }
 .bottom-b{
     border-bottom: 1px solid #3C3C3B;
