@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+}
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS */
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.input{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    right: 20px;
+    color: #6C757D;
+}
+.bg-btn {
+    background-color: #572B39;
+}
+
+.text-white {
+    color: white;
+}
+.m-30{
+    margin-left: -30px;
+}
+/* Font-face */
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/AnyConv.com__Inter-Regular.woff");    
+}
+@font-face {
+    font-family: "JosefinSans";
+    src: url("../fonts/AnyConv.com__JosefinSans-Regular.woff");    
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/AnyConv.com__Roboto-Regular.woff");    
+}
+.link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #6C757D;
+}
+.active{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: underline;
+}
+::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;    
+    line-height: 16px;
+    color:#555555;
+}
+.btn-book{    
+    font-family: 'Inter';
+    font-style: normal;
+}
+.banner-section{
+    background-image: url("../assets/images/bg.png");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-head{
+    font-family: 'JosefinSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 62px;
+    color: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bg-banner{
+    background: #FFFFFF;
+    box-shadow: 0px 3px 18px rgba(92, 92, 92, 0.1);
+}
+.b-main{
+    bottom: 140px;
+}
+.bottom-b{
+    border-bottom: 1px solid #3C3C3B;
+}
+.para{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.06em; 
+    color: #555555;
+}
+.value{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    color: #555555;
+}
+.f-c-w{
+    color: #FFFFFF;
+}
+.p-t-b{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.text-head{
+    font-family: 'JosefinSans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #A2001C;
+}
+.fs-18{
+    font-size: 18px;
+    line-height: 30px;
+}
+.img-text{
+    position: relative;
+}
+.img-text::after {
+    content: '';
+    height: 100%;
+    width: 45%;
+    position: absolute;
+    background-color: #E9B8A8;
+    z-index: -1;
+}
+.img-text-1{
+    position: relative;
+}
+.img-text-1::before {
+    content: '';
+    height: 100%;
+    width: 45%;
+    right: 0;
+    position: absolute;
+    background-color: #E9B8A8;
+    z-index: -1;
+}
+.icon-para{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #555555;
+    opacity: 0.8;
+}
+.icon-text{
+    border: 1px solid #D7AB9C;
+}
+.slick-slide img {
+    display: block;
+    max-width: 100%;
+}

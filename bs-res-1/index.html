@@ -18,16 +18,19 @@
                 <div class="col-2">
                     <img src="./assets/images/logo.png" class="img-fluid" width="170" height="85" alt="logo">
                 </div>
-                <div class="col-4">
-                    <ul class="justify-content-between d-flex">
-                        <li class="active"><a href="#">Home</a></li>
+                <div class="col-4 navbar-1" id="myTopnav">
+                    <input type="checkbox" id="check1">
+                    <ul class="topnav justify-content-between d-flex">
+                        <li class="active link"><a href="#">Home</a></li>
                         <li class="link"><a href="#" class="link" title="Html">Html</a></li>
                         <li class="link"><a href="#" class="link" title="Css">About Us</a></li>
                         <li class="link"><a href="#" class="link" title="Layout">Services</a></li>
                         <li class="link"><a href="#" class="link" title="Bootstrap">Contact</a></li>
                         <li class="link"><a href="#" class="link" title="Bootstrap">Help</a></li>
                     </ul>
+                    
                 </div>
+                
                 <div class="col-6 d-flex align-items-center justify-content-center">
                     <div class="input d-flex align-items-center">
                         <input class="w-100 form-control search-in" type="text" placeholder="Search your items here">
@@ -38,8 +41,9 @@
                         <i class="fa fa-envelope fa-2x"></i>
                         <span class="position-absolute top-10 start-80 translate-middle badge rounded-pill bg-primary">2</span>
                     </a>
-                    
+                    <div class="fa-btn"><label for="check1" class="checkbtn1"><i class="fa fa-bars"></i></label></div>
                 </div>   
+                
             </div>
     </header>
     <section class="carousle-banner">
@@ -74,15 +78,15 @@
                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut<br>
                   aliquip ex ea commodo consequat. 
             </p>   
-            <div class="mt-56 text-center">
+            <div class="mt-56 text-center mx-5">
                 <button type="button" class="btn btn-color rounded">Get Started</button>
             </div>
         </div>
     </section>
 
-    <section class="img-text background bg-img text-img d-block">
+    <!-- <section class="img-text background bg-img text-img d-block">
         <div class="container">
-            <div class="row justify-content-end">
+            <d  iv class="row justify-content-end">
                 <div class="col-6">
                     <h3 class="text-head fs-40 text-strat pt-90 mx-5">Lorem ipsum</h3>
                     <p class="text-para text-strat pt-24 mx-5">
@@ -97,12 +101,28 @@
                 </div>
             </div>
         </div>
+    </section> -->
+    <section class="d-flex align-items-center">
+        <div class="col-6">
+          <img src="./assets/images/img-text.png" class="d-block img-fluid" alt="img">
+        </div>
+        <div class="col-6">
+          <div class="txt">
+            <h3 class="text-head fs-40 pt-90">Lorem ipsum</h3>
+            <p class="text-para pt-24">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                       commodo consequat. 
+            </p>
+          </div>
+        </div>
     </section>
 
     <section class="cards-banner pt-90 pb-90">
         <div class="container">
-            <div class="row gap-4 row-cols-3 justify-content-center">
-                <div class="card">
+            <div class="row gap-4 justify-content-center">
+                <div class="card col-12 mb-3 mb-lg-0 col-sm-6 col-lg-3">
                     <div class="card-body">
                       <h5 class="card-title pt-68">Card title</h5>
                       <h6 class="card-subtitle mt-3 text-muted">Card subtitle</h6>
@@ -113,7 +133,7 @@
                       <a href="#" class="card-link link-2">Another link</a>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card col-12 mb-3 mb-lg-0 col-sm-6 col-lg-3">
                     <div class="card-body">
                       <h5 class="card-title pt-68">Card title</h5>
                       <h6 class="card-subtitle mt-3 text-muted">Card subtitle</h6>
@@ -124,7 +144,7 @@
                       <a href="#" class="card-link link-2">Another link</a>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card col-12 mb-3 mb-lg-0 col-sm-6 col-lg-3">
                     <div class="card-body">
                       <h5 class="card-title pt-68">Card title</h5>
                       <h6 class="card-subtitle mt-3 text-muted">Card subtitle</h6>
@@ -195,7 +215,7 @@
     <section class="faq pt-90">
         <div class="container">
             <h3 class="text-head fs-40 text-center mb-5">FAQ Lorem Ipsum</h3>
-            <div class="accordion w-50 mx-auto" id="accordionExample">
+            <div class="accordion mx-auto" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -254,16 +274,16 @@
           <div class="tab rounded mx-auto" style="background-color: white;"> 
               <ul class="nav nav-pills pt-5 px-5 gap-2" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Form</button>
+                  <button class="nav-link active fs-20" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Form</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Request</button>
+                  <button class="nav-link fs-20" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Request</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-quote-tab" data-bs-toggle="pill" data-bs-target="#pills-quote" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Quote</button>
+                  <button class="nav-link fs-20" id="pills-quote-tab" data-bs-toggle="pill" data-bs-target="#pills-quote" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Quote</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Edit</button>
+                  <button class="nav-link fs-20" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Edit</button>
                 </li>
               </ul>
           
@@ -271,43 +291,43 @@
                 <div class="tab-pane fade show active text-decoration-none" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                   <form>
                     <div class="row">
-                      <div class="col-sm-6 d-flex mb-3">
+                      <div class="input-group w-50 d-flex mb-3">
                         <label for="fn" class="col-sm-2 col-form-label">First Name:</label>
                         <div class="col-sm-7">
                           <input type="text" class="form-control" id="fn">
                         </div>
                       </div>
-                      <div class="col-sm-6 d-flex mb-3">
+                      <div class="input-group w-50 col-sm-6 d-flex mb-3">
                         <label for="ln" class="col-sm-2 col-form-label">Last Name:</label>
                         <div class="col-sm-7">
                           <input type="text" class="form-control" id="ln">
                         </div>
                       </div>
-                      <div class="col-6 d-flex mb-3">
+                      <div class="input-group w-50 col-6 d-flex mb-3">
                         <label for="email" class="col-sm-2 col-form-label">Email Id:</label>
                         <div class="col-sm-7">
                           <input type="email" class="form-control" id="email">
                         </div>
                       </div>
-                      <div class="col-6 d-flex mb-3">
+                      <div class="input-group w-50 col-6 d-flex mb-3">
                         <label for="web" class="col-sm-2 col-form-label">Website:</label>
                         <div class="col-sm-7">
                           <input type="url" class="form-control" id="web">
                         </div>
                       </div>
-                      <div class="col-6 d-flex mb-3">
+                      <div class="input-group w-50 col-6 d-flex mb-3">
                         <label for="mobile" class="col-sm-2 col-form-label">Mobile:</label>
                         <div class="col-sm-7">
                           <input type="text" class="form-control" id="mobile">
                         </div>
                       </div>
-                      <div class="col-6 d-flex mb-3">
+                      <div class="input-group w-50 col-6 d-flex mb-3">
                         <label for="date" class="col-sm-2 col-form-label">Date:</label>
                         <div class="col-sm-7">
-                          <input type="date" class="form-control" id="date">
+                          <input type="date" class="form-control w-50" id="date">
                         </div>
                       </div>
-                      <div class="col-6 d-flex mb-3">
+                      <div class="input-group w-50 col-6 d-flex mb-3">
                         <label for="city" class="col-sm-2 col-form-label">City:</label>
                         <div class="col-sm-4">
                           <select class="form-select" id="city">
@@ -320,7 +340,7 @@
                           </select>
                         </div>
                       </div>
-                      <div class="col-6 d-flex mb-3">
+                      <div class="input-group w-50 col-6 d-flex mb-3">
                         <label for="state" class="col-sm-2 col-form-label">State:</label>
                         <div class="col-sm-3">
                           <select class="form-select" id="state">
@@ -330,7 +350,7 @@
                             <option>Hydrabad</option>
                           </select>
                         </div>
-                        <div class="col-6 d-flex mb-3">
+                        <div class="input-group w-50 col-6 d-flex mb-3">
                           <label for="pincode" class="col-sm-2 col-form-label mx-3">Zip:</label>
                           <div class="col-sm-5">
                             <input type="text" class="form-control" id="pincode">
@@ -338,7 +358,7 @@
                         </div>  
                       </div>
                     
-                      <div class="col-6 d-flex mb-3">
+                      <div class="input-group w-50 col-6 d-flex mb-3">
                         <div class="col-sm-6">
                           <input type="file" class="form-control" id="file">
                         </div>
@@ -384,8 +404,8 @@
 
     <section class="card-3 pt-90 pb-90"> 
       <div class="container">
-        <div class="card-group justify-content-center gap-4">
-          <div class="card border border-0">
+        <div class="card-group mx-auto gap-4">
+          <div class="card">
             <img src="./assets/images/card-1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title mt-3 mb-3 fs-28 h-color">The Ultimate Guide to Traveling
@@ -394,7 +414,7 @@
               <a href="#">Go somewhere <span><i class="fa fa-long-arrow-right ml-20" aria-hidden="true"></i></span></a>
             </div>
           </div>
-          <div class="card border border-0">
+          <div class="card">
             <img src="./assets/images/card-2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title mt-3 mb-3 fs-28 h-color">The Ultimate Guide to Traveling
@@ -403,7 +423,7 @@
               <a href="#">Go somewhere <span><i class="fa fa-long-arrow-right ml-20" aria-hidden="true"></i></span></a>
             </div>
           </div>
-          <div class="card border border-0">
+          <div class="card">
             <img src="./assets/images/card-3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title mt-3 mb-3 fs-28 h-color">The Ultimate Guide to Traveling
@@ -415,9 +435,9 @@
         </div>
       </div>
     </section>
+
     <!-- Footer -->
   <footer class="text-center container text-lg-start background text-muted">
-  
     <section>
       <div class="container text-center text-md-start mt-5">
         <!-- Grid row -->
@@ -432,13 +452,8 @@
             <div class="input-group has-validation mt-3 mb-4">
               <input type="email" class="form-control frm-mail" id="username" placeholder="Enter Your Email Id" required="">
               <span class="input-group-text btn-primary">Subscribe</span>
-             
             </div>
-  
           </div>
-          <!-- Grid column -->
-          
-
           <!-- Grid column -->
           <div class="col-sm-6 col-md-2 col-lg-2 col-xl-2 mb-4">
             <!-- Links -->
@@ -457,8 +472,6 @@
             </p>
           </div>
           <!-- Grid column -->
-
-          <!-- Grid column -->
           <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-4">
             <!-- Links -->
             <h3 class="text-head fs-24 mt-5">Pages</h3>
@@ -476,23 +489,19 @@
             </p>
           </div>
           <!-- Grid column -->
-
-          <!-- Grid column -->
           <div class="col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4">
             <!-- Links -->
             <h3 class="text-head fs-24 mt-5">Instagram</h3>
-            <div class="d-flex gap-2 justify-content-center">
-              <img src="./assets/images/sm-6.png" class="mt-3 rounded" alt="">
-              <img src="./assets/images/sm-5.png" class="mt-3 rounded" alt="">
-              <img src="./assets/images/sm-4.png" class="mt-3 rounded" alt="">
+            <div class="d-flex gap-2 justify-content-start">
+              <img src="./assets/images/sm-6.png" width="86" height="82" class="mt-3 rounded" alt="">
+              <img src="./assets/images/sm-5.png" width="86" height="82" class="mt-3 rounded" alt="">
+              <img src="./assets/images/sm-4.png" width="86" height="82" class="mt-3 rounded" alt="">
             </div>
-            <div class="d-flex gap-2 justify-content-center">
-              <img src="./assets/images/sm-3.png" class="mt-3 rounded" alt="">
-              <img src="./assets/images/sm-2.png" class="mt-3 rounded" alt="">
-              <img src="./assets/images/sm-1.png" class="mt-3 rounded" alt="">
-             
+            <div class="d-flex gap-2 justify-content-start">
+              <img src="./assets/images/sm-3.png" width="86" height="82" class="mt-3 rounded" alt="">
+              <img src="./assets/images/sm-2.png" width="86" height="82" class="mt-3 rounded" alt="">
+              <img src="./assets/images/sm-1.png" width="86" height="82" class="mt-3 rounded" alt="">
             </div>
-
           </div>
           <!-- Grid column -->
         </div>
@@ -502,10 +511,8 @@
     <!-- Section: Links  -->
 
     <!-- Copyright -->
-
     <div class="text-center p-4 text-para" style="border-top: 1px solid #6C757D;">
-     © 2023 Quiety Rights Reserved. Designed By LoremIpsum
-      
+     <a href="#" class="link">© 2023 Quiety Rights Reserved. Designed By LoremIpsum</a>
     </div>
     <!-- Copyright -->
   </footer>
