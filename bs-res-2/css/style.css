@@ -294,7 +294,14 @@ textarea{
 .weather-one{
     border-right: 1px solid white;
 }
-
+.title{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #555555;
+}
 /* media query */
 @media screen and (max-width: 1199px){
     .text{
