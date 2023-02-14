@@ -249,6 +249,10 @@ table {
 .bg-sub{
     background: #BB002D;
 }
+.bg-sub:hover{
+    background: #FFF5F5;
+    color: black;
+}
 textarea{
     resize: none;
 }
