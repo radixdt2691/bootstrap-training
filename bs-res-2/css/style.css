@@ -11,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -20,7 +20,7 @@ time, mark, audio, video {
 	border: 0;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -70,15 +70,15 @@ table {
 /* Font-face */
 @font-face {
     font-family: "Inter";
-    src: url("../fonts/AnyConv.com__Inter-Regular.woff");    
+    src: url("../fonts/AnyConv.com__Inter-Regular.woff");
 }
 @font-face {
     font-family: "JosefinSans";
-    src: url("../fonts/AnyConv.com__JosefinSans-Regular.woff");    
+    src: url("../fonts/AnyConv.com__JosefinSans-Regular.woff");
 }
 @font-face {
     font-family: "Roboto";
-    src: url("../fonts/AnyConv.com__Roboto-Regular.woff");    
+    src: url("../fonts/AnyConv.com__Roboto-Regular.woff");
 }
 .link{
     font-family: 'Inter';
@@ -100,11 +100,11 @@ table {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;    
+    font-size: 16px;
     line-height: 16px;
     color:#555555;
 }
-.btn-book{    
+.btn-book{
     font-family: 'Inter';
     font-style: normal;
 }
@@ -132,7 +132,7 @@ table {
     box-shadow: 0px 3px 18px rgba(92, 92, 92, 0.1);
 }
 .b-main{
-    top: 75vh;  
+    margin-top: -50px;
 }
 .bottom-b{
     border-bottom: 1px solid #3C3C3B;
@@ -143,7 +143,7 @@ table {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: 0.06em; 
+    letter-spacing: 0.06em;
     color: #555555;
 }
 .value{
@@ -244,7 +244,7 @@ table {
 }
 .rectangle-form{
     background-image: url("../assets/images/Rectangle.png");
-   
+
 }
 .bg-sub{
     background: #BB002D;
@@ -261,4 +261,98 @@ textarea{
 .fade:not(.show){opacity: 1;}
 .ml-30{
     margin-left: 30px;
+}
+.footer-bg{
+    background: #BC8E84;
+}
+.footer-txt{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.button-sub{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #59493D;
+
+}
+.cp-bg{
+    background: #FFF5F5;
+}
+.temp{
+    justify-content: flex-start;
+}
+.fs-14{
+    font-size: 14px;
+}
+/* media query */
+@media screen and (max-width: 1199px){
+    .text{
+        margin-top: 250px;
+    }
+    .img-text::after {
+        position: absolute;
+        content: " ";
+        visibility: hidden;
+    }
+    .img-text-1::before{
+        position: absolute;
+        content: " ";
+        visibility: hidden;
+    }
+    }
+@media screen and (max-width: 991px){
+.text{
+    margin-top: 250px;
+}
+.temp{
+    justify-content: center;
+}
+.main-temp{
+    text-align: center;
+}
+.p-t-b{
+    padding-top: unset;
+}
+.col-5{
+    width: unset;
+}
+.navbar>.container-fluid{
+    flex-wrap: unset;
+}
+.para{
+    text-align: center;
+}
+}
+@media screen and (max-width: 767px) {
+    .fs-28{
+        font-size: 14px;
+    }
+    .para{
+        font-size: 14px;
+    }
+    .banner-head{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .temp{
+        flex-direction: column;
+        border:0;
+    }
+    .banner-head{
+        font-size: 43px;
+    }
+    .text-head{
+        font-size: 36px;
+    }
+    .content-txt {
+        top: 0%;
+    }
 }

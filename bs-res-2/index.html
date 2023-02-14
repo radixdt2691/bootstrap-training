@@ -49,10 +49,12 @@
     </header>
     <section class="banner-section p-t-b">
         <h1 class="position-absolute banner-head">Lorem ipsum dolor sit amet</h1>
+    </section>
+    <section class="">
         <div class="b-main position-absolute w-100 row">
             <div class="col-9 bg-banner px-5 py-3 mx-auto border border-2 ">
-                <div class="row justify-content-evenly">
-                    <div class="col-3 px-0 bottom-b">
+                <div class="row flex-column flex-lg-row justify-content-evenly">
+                    <div class="col-sm-12 col-md-12 col-xl-3 px-0 bottom-b">
                         <p class="para">Arrival-Departure Date</p>
                         <div class="dropdown-center">
                             <select class="form-select value border-0 bg-transperent ps-0 pe-5">
@@ -63,7 +65,7 @@
                             </select>
                         </div>  
                     </div>
-                    <div class="col-2 px-0 bottom-b">
+                    <div class="col-sm-12 col-md-12 col-xl-2 px-0 bottom-b">
                         <p class="para">Adults</p>
                         <div class="dropdown-center">
                             <select class="form-select value border-0 bg-transperent ps-0 pe-5">
@@ -74,7 +76,7 @@
                             </select>
                         </div>  
                     </div>
-                    <div class="col-2 px-0 bottom-b">
+                    <div class="col-sm-12 col-md-12 col-xl-2 px-0 bottom-b">
                         <p class="para">Children</p>
                         <div class="dropdown-center">
                             <select class="form-select value border-0 bg-transperent ps-0 pe-5">
@@ -104,7 +106,7 @@
     </section>
     <section class="img-text d-flex gx-0">
         <div class="container">
-            <div class="row p-t-b align-items-center justify-content-center">
+            <div class="row flex-column flex-lg-row p-t-b align-items-center justify-content-center">
                 <img src="./assets/images/ct.png" width="1234.6" height="530.89" class="img-fluid col-7" alt="img">
                 <div class="col-5 p-5">
                     <h2 class="text-head">Lorem ipsum dolor sit amet</h2>
@@ -117,7 +119,7 @@
     </section>
     <section class="img-text-1 d-flex gx-0">
         <div class="container">
-            <div class="row p-t-b align-items-center justify-content-start">
+            <div class="row flex-column flex-lg-row p-t-b align-items-center justify-content-start">
                 <div class="col-5 p-5">
                     <h2 class="text-head">Lorem ipsum dolor sit amet</h2>
                     <p class="para text-left pt-5">
@@ -140,16 +142,16 @@
     </section>
     <section class="icon-border">
         <div class="container">
-            <div class="row justify-content-evenly">
-                <div class="col-2 icon-text mb-5 py-5 px-4 text-center">
+            <div class="row flex-column flex-lg-row justify-content-evenly">
+                <div class="col-sm-12 col-md-12 col-xl-2 icon-text mb-5 py-5 px-4 text-center">
                     <img src="./assets/images/icon-1.png" width="56" height="58" alt="icon-img">
                     <p class="icon-para">Lorem ipsum dolor sit</p>
                 </div>
-                <div class="col-2 icon-text mb-5 py-5 px-4 text-center">
+                <div class="col-sm-12 col-md-12 col-xl-2 icon-text mb-5 py-5 px-4 text-center">
                     <img src="./assets/images/icon-2.png" width="56" height="58" alt="icon-img">
                     <p class="icon-para">Lorem ipsum dolor sit</p>
                 </div>
-                <div class="col-2 icon-text mb-5 py-5 px-4 text-center">
+                <div class="col-sm-12 col-md-12 col-xl-2 icon-text mb-5 py-5 px-4 text-center">
                     <img src="./assets/images/icon-3.png" width="56" height="58" alt="icon-img">
                     <p class="icon-para">Lorem ipsum dolor sit</p>
                 </div>
@@ -221,9 +223,11 @@
     </section>
 
     <section class="p-b">
-        <video class="object-fit-cover col-6 vid" width="1130" height="512" autoplay controls>
-            <source src="./assets/video/demo.mp4" type="video/mp4">
-        </video>
+        <div class="container-fluid">
+            <video class="col-6 vid h-100" width="1130" height="512" autoplay controls>
+                <source src="./assets/video/demo.mp4" type="video/mp4">
+            </video>
+        </div>
     </section>
 
     <section class="img-grid p-b">
@@ -315,12 +319,11 @@
     </section>
     <section class="p-t-b align-items-center">
         <div class="container justify-content-center">
-            <h3 class="text-head">Lorem ipsum dolor</h3>
+            <h3 class="text-head mt-5 mb-5">Lorem ipsum dolor</h3>
             <div class="row justify-content-center">
-                 <div class="col-11 back-fixed">
-                    <div class="row justify-content-center g-0">
+                 <div class="col-sm-8 col-md-4 col-lg-12 col-xl-8 col-xxl-10 back-fixed">
+                    <div class="row flex-column flex-lg-row justify-content-center g-0">
                         <div class="col-6 fade-2">
-                            
                             <div class="img-p-div">
                                 <img src="./assets/images/slide_txt.png" width="696" height="535" alt="Room" class="img-fluid">
                             </div>
@@ -331,7 +334,7 @@
                                 <img src="./assets/images/slide_txt.png" width="696" height="535" alt="Room" class="img-fluid">
                             </div>
                         </div>
-                        <div class="col-5 fade">
+                        <div class="col-6 fade">
                             <div class="content-box py-5">
                                 <h4 class="title color-white">Lorem Ipsum 1</h4>
                                 <p class="mb-0 date color-white py-3">30.08 - 09.10.2022</p>
@@ -349,7 +352,7 @@
                                 <p class="mb-0 color-black pb-2">47 m<sup>2</sup> dolor 1 - 2 eiusmod tempor</p>
                                 <p class="mb-0 color-black pb-3">Lorem ipsum <span class="fw-bold"> 56 €</span> per Person (bis max. 103 € per Person)</p>
                                 <p class="mb-0 color-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <div class="mt-5 d-flex justify-content-evenly mx-5">
+                                <div class="mt-5 d-flex justify-content-evenly">
                                    <img src="./assets/images/Vector.png" alt="icon">
                                    <img src="./assets/images/Vector2.png" alt="icon">
                                 </div>
@@ -361,31 +364,111 @@
                                 <p class="mb-0 color-black pb-2">47 m<sup>2</sup> dolor 1 - 2 eiusmod tempor</p>
                                 <p class="mb-0 color-black pb-3">Lorem ipsum <span class="fw-bold"> 56 €</span> per Person (bis max. 103 € per Person)</p>
                                 <p class="mb-0 color-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <div class="mt-5 d-flex justify-content-evenly mx-5">
+                                <div class="mt-5 d-flex justify-content-evenly">
                                     <img src="./assets/images/Vector.png" alt="icon">
                                    <img src="./assets/images/Vector2.png" alt="icon">
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                  </div>
             </div>
-            <!-- <div class="col-6 back-fixed">
-                <div class="center mt-3">
-                        <div class="d-flex">
-                            <img src="./assets/images/slide_txt.png" class="my-3 mt-5" alt="img">
-                            <h4>Lorem Ipsum</h4>
-                        </div>
-                        <div>
-                            <img src="./assets/images/slide_txt.png" alt="img">
-                            <h4>Lorem Ipsum</h4>
-                        </div>
-                </div>
-            </div> -->
         </div>
     </section>
+
+    <footer class="text-center container text-lg-start background text-muted footer-bg pb-5">
+        <section>
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-5 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <p class="footer-txt mt-5 mb-3">
+                    <i class="fa fa-phone mx-3" aria-hidden="true"></i><a>+39  0472 647 122</a>
+                </p>
+                <p class="footer-txt mt-3 mb-3">
+                    <i class="fa fa-building-o mx-3" aria-hidden="true"></i><a>+39 0472 647 350</a>
+                </p>
+                <p class="footer-txt mt-3 mb-3">
+                    <i class="fa fa-envelope-o mx-3" aria-hidden="true"></i><a href="mailto:info@loremipsum.com" class="text-decoration-none">info@loremipsum.com</a>
+                </p>
+                <p class="footer-txt mt-5 mb-3 mx-3">
+                    NEWSLETTER
+                    <br>Sign up for special offers
+                </p>
+                <div class="input-group has-validation mt-3 mb-4 mx-3">
+                  <input type="email" class="form-control bg-transparent" id="username" required="">
+                  <span class="input-group-text button-sub bg-white border border-0 p-3">Subscribe</span>
+                </div>
+                <p class="footer-txt mx-3">
+                    Follow us on
+                    <i class="fa fa-instagram ms-3" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-official m-2" aria-hidden="true"></i>
+                  </p>
+              </div>
+              <!-- Grid column -->
+              <div class="col-sm-6 col-md-1 col-lg-1 col-xl-3 mb-4 d-flex justify-content-center mx-auto">
+                <!-- Links -->
+                <i class="fa fa-map-marker mt-5 mb-3 mx-3 text-white" aria-hidden="true"></i>
+                <p class="footer-txt mt-5 mb-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 776688-mumbai.
+                </p>
+              </div>
+              <!-- Grid column -->
+              <div class="main-temp col-md-11 col-lg-6 col-xl-5 col-xxl-5 mt-5 mb-4">
+                <p class="footer-txt">
+                    Interessante Seiten
+                </p>
+                <p class="footer-txt mt-3">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical, May one Which life divide sea.
+                </p>
+                <p class="footer-txt mt-5">
+                    Weather in mumbai
+                </p>
+                <div class="d-flex temp mx-auto gap-5 mt-3">
+                    <div class="weather-one text-center mt-3 border-end pe-5">
+                        <img src="./assets/images/weather.png" class="mb-3" alt="sun-cloud">
+                        <p class="footer-txt mx-auto">
+                            21.09.2022<br>
+                            Min: 12°<br>
+                            Max: 22°
+                        </p>
+                    </div>
+                    <div class="weather-one text-center mt-3 border-end pe-5">
+                        <img src="./assets/images/weather.png" class="mb-3" alt="sun-cloud">
+                        <p class="footer-txt mx-auto">
+                            22.09.2022<br>
+                            Min: 13°<br>
+                            Max: 22°
+                        </p>
+                    </div>
+                    <div class="weather-one text-center mt-3">
+                        <img src="./assets/images/weather.png" class="mb-3" alt="sun-cloud">
+                        <p class="footer-txt mx-auto">
+                            23.09.2022<br>
+                            Min: 14°<br>
+                            Max: 22°
+                        </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      </footer>
+      <!-- Copyright -->
+      <section class="cp-bg">
+        <div class="container">
+            <div class="text-center p-4 footer-txt">
+                <a href="#" class="link">© 2023 Quiety Rights Reserved. Designed By LoremIpsum</a>
+              </div>
+        </div>
+      </section>
+     
+       <!-- Copyright -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
