@@ -291,6 +291,9 @@ textarea{
 .fs-14{
     font-size: 14px;
 }
+.weather-one{
+    border-right: 1px solid white;
+}
 /* media query */
 @media screen and (max-width: 1199px){
     .text{
@@ -354,5 +357,8 @@ textarea{
     }
     .content-txt {
         top: 0%;
+    }
+    .weather-one{
+        border-right: unset;
     }
 }
