@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS Demo-3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/css/mdb.min.css" integrity="sha512-hj9rznBPdFg9A4fACbJcp4ttzdinMDtPrtZ3gBD11DiY3O1xJfn0r1U5so/J0zwfGOzq9teIaH5rFmjFAFw8SA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <!-- Header Section Start -->
+    <header class="bg-white position-fixed z-3 w-100 start-0">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand col-lg-2" href="#">
+                        <img src="./assets/images/logo.png" class="img-fluid" width="170" height="85" alt="logo">
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse col-lg-10" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 col-lg-4 justify-content-evenly">
+                        <li class="active1"><a href="#" class="active1">Home</a></li>
+                        <li><a href="#" class="link" title="Html">Html</a></li>
+                        <li><a href="#" class="link" title="Css">Css</a></li>
+                        <li><a href="#" class="link" title="Layout">Layout</a></li>
+                        <li><a href="#" class="link" title="Bootstrap">Bootstrap</a></li>
+                    </ul>
+                    <form class="d-flex align-items-center col-lg-7 gap-5 ms-5" role="search">
+                        <div class="input d-flex align-items-center col-7">
+                            <input class="form-control rounded-pill px-4" type="search" placeholder="Enter keyword, Item # or Part #" aria-label="Search">
+                            <i class="fa fa-search icon"></i>
+                        </div>
+                        <button type="button" class="btn btn-book py-3 rounded-0 ">
+                            Order Now
+                        </button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!-- Header Section Complete -->
+
+    <!-- Slider Section Starts -->
+    <section>   
+        <div class="position-absolute w-100 mx-auto banner-content text-center z-2">
+          <h1 class="txt-head text-white">Lorem ipsum dolor sit amet </h1>
+          <p class="txt-para text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>   
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="height: 850px;">
+                <img src="./assets/images/bg-slide-1.png" alt="" class="img-fluid object-fit-cover h-100" height="850" width="1920" >
+              </div>
+              <div class="swiper-slide banner-img" style="height: 850px;">
+                <img src="./assets/images/bg-slide-2.png" alt="" class="img-fluid object-fit-cover h-100" height="850" width="1920" >
+              </div>                      
+            </div>
+            <div class="swiper-button-next" ><img src="./assets/images/arrow2.png" alt=""></i></div>
+            <div class="swiper-button-prev" ><img src="./assets/images/arrow1.png" alt=""></i></div>
+            <div class="swiper-pagination page font-family-como"></div> 
+        </div>       
+    </section>
+    <!-- Slider Section Complete -->
+
+    <!-- img-text Section start -->
+    <section class="mt-5 pt-5 mb-5">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div>
+                    <h2 class="txt-head">
+                        Lorem ipsum dolor sit amet
+                    </h2>
+                    <p class="txt-para col-9 mt-3 mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="d-flex">
+                        <p class="txt-link">Explore More</p>
+                        <span class="px-3">
+                            <img src="./assets/images/arrow.png" alt="arrow">
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/images/txt-img-1.png" width="512" height="411" alt="img">
+                </div>
+            </div>
+            <div class="d-flex justify-content-center bg-white mt-200">
+                <div class="p-4 bg-white">
+                    <img src="./assets/images/txt-img-2.png" width="512" height="411" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- img-text Section comp -->
+
+    <!-- card-txt section start -->
+    <section class="pt-5">
+        <div class="container">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h2 class="txt-head text-center">
+                    Lorem ipsum dolor sit amet
+                </h2>
+                <p class="txt-para col-5 mt-3 mb-4 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="d-flex col-12 justify-content-center mt-5 gap-4 mb-5">
+                <img src="./assets/images/card-1.png" class="img-fluid object-fit-cover h-100" alt="img">
+                <img src="./assets/images/card-2.png" class="img-fluid object-fit-cover h-100" alt="img">
+                <img src="./assets/images/card-3.png" class="img-fluid object-fit-cover h-100" alt="img">
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn btn-view py-3 rounded-0">
+                    View More
+                </button>
+            </div>
+            
+        </div>
+    </section>
+    <!-- card-txt section comp -->
+
+    <!-- bg-video section start -->
+    <section class="mt-5 p-5 pt-5 bg-vid">
+        <div class="row">
+            <div class="h-100 d-flex justify-content-center">
+                <button type="button" class="bg-transparent border-0 position-absolute btn-vid" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="./assets/images/vid-icn.png" alt="icon"></button>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                  <div class="modal-content h-100">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                    <div class="modal-body">
+                        <video class="vid h-100"autoplay controls>
+                            <source src="./assets/video/demo.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- bg-video section comp -->
+
+    <!-- bg-image-txt section satrt -->
+    <section class="bg-img pt-lg-5 mb-5">
+        <div class="container pt-5">
+            <div class="text-center">
+                <h2 class="txt-head">
+                    Lorem ipsum dolor sit amet
+                </h2>
+                <p class="txt-para col-12 mx-auto mt-3 mb-4 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="d-flex gap-4 justify-content-center pt-5">
+                <div class="card border-0 rounded-0" style="width: 28rem;">
+                    <img src="./assets/images/c-1.png" class="card-img-top rounded-0" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title txt-head fs-40 mt-3">Lorem Ipsum</h5>
+                      <h6 class="card-subtitle mb-2 txt-para ff-inter mt-3 mb-3">01.02.2023</h6>
+                      <p class="card-text txt-para">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                </div>
+                <div class="card border-0 rounded-0" style="width: 28rem;">
+                    <img src="./assets/images/c-2.png" class="card-img-top rounded-0" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title txt-head fs-40 mt-3">Lorem Ipsum</h5>
+                        <h6 class="card-subtitle mb-2 txt-para ff-inter mt-3 mb-3">01.02.2023</h6>
+                        <p class="card-text txt-para">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- bg-image-txt section end -->
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper1 = new Swiper(".mySwiper", {
+            /* autoplay: {
+                delay: 5000,
+            }, */
+            pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+            },
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+        });
+
+        /*  */
+        $(".slick-slider").slick({
+            slidesToShow: 2,
+            infinite:false,
+            accessibility: true,
+            adaptiveHeight: true,
+            slidesToScroll: 1,
+            autoplay: false,    
+            autoplaySpeed: 2000,
+            infinite: true,
+            // dots: false, Boolean
+            // arrows: false, Boolean
+        });
+        /*  */
+
+
+        /* streams */
+
+        var streamsSlider = new Swiper('[data-slider="true"]', {
+        autoplay: false,
+        loop:true,
+        // pagination: {
+        //     el: '[data-streams-pagination]',
+        //     clickable: true,
+        // },
+        navigation: {
+            nextEl: '[data-next]',
+            prevEl: '[data-prev]',
+        },
+        slidesPerView: 1,
+        spaceBetween: -80,
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            350: {
+                slidesPerView: 2,
+            },
+            750: {
+                slidesPerView: 3,
+            }
+        }
+        });
+
+    </script>
+    <!-- Script end -->
+
+</body>
+</html>
