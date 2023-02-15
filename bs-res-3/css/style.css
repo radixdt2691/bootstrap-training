@@ -73,16 +73,7 @@ table {
     right: 20px;
     color: #6C757D;
 }
-.bg-btn {
-    background-color: #572B39;
-}
 
-.text-white {
-    color: white;
-}
-.m-30{
-    margin-left: -30px;
-}
 .btn-book{
     border: 1px solid #8A0021;
     font-family: 'Lato';
@@ -97,15 +88,7 @@ table {
     background: #8A0021;
     color: #ffffff;
 }
-.active1{
-    text-decoration: underline;
-    color: red;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-}
+
 .link{
     color: #212121;
     font-family: 'Lato';
@@ -116,6 +99,10 @@ table {
 }
 .link:hover{
     border-bottom: 1px solid red;
+    color: red;
+}
+.active1{
+    text-decoration: underline;
     color: red;
 }
 ::placeholder{
