@@ -83,7 +83,7 @@
     <!-- img-text Section start -->
     <section class="mt-5 pt-5 mb-5">
         <div class="container">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex flex-column flex-lg-row justify-content-center">
                 <div>
                     <h2 class="txt-head">
                         Lorem ipsum dolor sit amet
@@ -112,7 +112,7 @@
     <!-- img-text Section comp -->
 
     <!-- card-txt section start -->
-    <section class="pt-5">
+    <section class="pt-5 mb-5">
         <div class="container">
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <h2 class="txt-head text-center">
@@ -122,16 +122,32 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
             </div>
-            <div class="row d-flex justify-content-center mt-5 mb-5">
-                <div class="col-sm-4">
-                    <img src="./assets/images/card-1.png" width="380" height="512" class="img-fluid object-fit-cover w-100 h-100" alt="img">
+            <div class="row flex-column flex-lg-row justify-content-center align-items-center mt-5 mb-5">
+                <div class="col-12 mb-5 col-sm-6 col-lg-4 mb-lg-0 position-relative">
+                    <div class="product">
+                        <img src="./assets/images/card-1.png" width="380" height="512" class="img-fluid w-100" alt="img">
+                    </div>
+                    <div class="h3 mb-0">
+                        <h3 class="txt-head fs-32 text-center">Lorem ipsum dolor</h3>
+                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <img src="./assets/images/card-2.png" width="380" height="512" class="img-fluid object-fit-cover w-100 h-100" alt="img">
+                <div class="col-12 mb-5 col-sm-6 col-lg-4 mb-lg-0 position-relative">
+                    <div class="product">
+                        <img src="./assets/images/card-2.png" width="380" height="512" class="img-fluid w-100" alt="img">
+                    </div>
+                    <div class="h3 mb-0">
+                        <h3 class="txt-head fs-32 text-center">Lorem ipsum dolor</h3>
+                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <img src="./assets/images/card-3.png" width="380" height="512" class="img-fluid object-fit-cover w-100 h-100" alt="img">     
+                <div class="col-12 mb-5 col-sm-6 col-lg-4 mb-lg-0 position-relative">
+                    <div class="product">
+                        <img src="./assets/images/card-3.png" width="380" height="512" class="img-fluid w-100" alt="img">
+                    </div>
+                    <div class="h3 mb-0">
+                        <h3 class="txt-head fs-32 text-center">Lorem ipsum dolor</h3>
+                    </div>
                 </div>
+                
             </div>
             <div class="text-center">
                 <button type="button" class="btn btn-view py-3 rounded-0">
@@ -144,11 +160,14 @@
     <!-- card-txt section comp -->
 
     <!-- bg-video section start -->
-    <section class="mt-5 p-5 pt-5 bg-vid">
-        <div class="row">
+    <section class="position-relative">
+        <div class="bg-vidd">
+            <img src="./assets/images/vid-bg.png" width="1900" height="450" alt="bg-vid" class="img-fluid">
             <div>
                 <button type="button" class="bg-transparent border-0 position-absolute btn-vid" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="./assets/images/vid-icn.png" alt="icon"></button>
             </div>
+        </div>
+        <div class="row">
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered ">
                   <div class="modal-content h-100">
@@ -359,7 +378,7 @@
                     <img src="./assets/images/frm-left.png" class="object-fit-cover rounded-start-4 w-100" width="585" height="680" alt="img">
                 </div>
                 <div class="frm_bg w-60 rounded-end-4 p-5 mb-5">
-                    <form action="" class="gap-5 d-flex flex-column ">
+                    <form action="" class="gap-5 d-flex flex-column">
                         <input type="text" class="form-control bg-transparent border-0 border-bottom rounded-0 border-dark shadow-none" placeholder="Your name" aria-label="Your name">
                         <div class="invalid-feedback">
                           Valid first name is required.
@@ -527,23 +546,15 @@
     <!-- chef card slider end -->
 
     <!-- News-letter start -->
-    <section class="mt-6-rem pt-5 bg-news">
-        <div class="row">
-            <div class="head d-flex flex-column position-absolute z-3">
-                <h2 class="txt-head text-white text-center fs-40">
+    <section class="mt-6-rem pt-5 bg-news position-relative">
+        <div class="container position-relative">
+            <div class="news-main mx-auto pb-5">
+                <h2 class="txt-head text-white text-center fs-40 mb-5">
                     Newsletter Sign Up
                 </h2>
-                
-            </div>
-            
-            <div class="d-flex justify-content-center align-items-baseline content-nl position-absolute z-3 mt-5 pt-5 mx-auto btn-vid">
-                
-                <div class="w-20 email-nl">
-                    <input type="text" class="form-control bg-transparent border-0 border-bottom rounded-0 border-light shadow-none" placeholder="Enter Email Address" aria-label="Your name">
-                </div>
-                <div class="col-5 pt-3">
-                    <button type="submit" class="btn col-lg-3 btn-book border-0 btn-book-new font-inter rounded-0  border-0">Subscribe</button>
-                </div>
+                <p class="fs-16 txt-para mb-3">SIGN UP FOR NEWS AND SPECIAL OFFER</p>
+                <input type="email" name="text" id="email" placeholder="Enter Email Address" class="fs-18 font-lato-regular bg-transparent border-0 border-bottom py-2 w-75 d-block d-md-inline-block mb-4 mb-md-0 ">
+                <button type="submit" class="btn btn-book border-0 btn-book-new font-inter rounded-0 border-0">Subscribe</button>       
             </div>
         </div>
     </section>
@@ -553,9 +564,9 @@
     <footer class="text-center text-lg-start background">
           <div class="container text-center text-md-start">
             <!-- Grid row -->
-                <div class="row mx-auto w-100">
+                <div class="row gy-4 justify-content-between">
                 <!-- Grid column -->
-                    <div class="col-lg-4 col-sm-6 col-6 mb-4 mt-3 mb-5">
+                    <div class="col-lg-4 col-md-6 col-12 mt-3">
                         <!-- Content -->
                         <img src="./assets/images/logo.png"  class="mt-5 mb-5 img-fluid" width="170" height="85">
                         <p class="txt-para">
@@ -570,7 +581,7 @@
                             <a class="link-social-1" href="#" title="social-link"><i class="fab fa-facebook-f icon-1"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-2 mb-4 mt-3 mb-5">
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mt-3 mb-5">
                         <h3 class="txt-head fs-28 mt-5">Contact Us</h3>
                         <p class="txt-para col-12 mt-3 mb-3">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 776688-mumbai.
@@ -582,7 +593,7 @@
                             <a>+39 0472 647 350</a>
                         </p>
                     </div>
-                    <div class="col-12 col-lg-5 mb-4 mt-5">
+                    <div class="col-lg-4 col-6 mb-4 mt-5">
                         <div>
                             <img src="./assets/images/footer-img.png" class="img-fluid" width="446" height="351" alt="">
                         </div>
@@ -592,7 +603,7 @@
     </footer>
 
     <!-- Footer end -->
-
+    
     <!-- Copyright Start -->
     <section class="cp-bg">
         <div class="container">
